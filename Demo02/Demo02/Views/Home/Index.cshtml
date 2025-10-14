@@ -1,0 +1,13 @@
+﻿@{  
+   ViewData["Title"] = "Home Page";  
+}  
+
+<div class="text-center">  
+   @if(ViewBag.id != 0)  
+   {  
+       <h1 class="display-4">Bem-vindo! I Love You 💘</h1>  
+       <p>Seu ID é: <span style="font-weight: bold; color: #007BFF;">@ViewBag.id</span></p>  
+       <p>Que tal explorar mais sobre o ASP.NET Core?</p>  
+   } 
+   <p>Saiba mais sobre <a href="https://docs.microsoft.com/aspnet/core" target="_blank">como criar aplicativos Web com ASP.NET Core</a>.</p>  
+</div>
